@@ -190,7 +190,7 @@ function deploy_run_explorer(){
 		-e DATABASE_PASSWD=$explorer_db_pwd \
 		-v $network_config_file:/opt/explorer/app/platform/fabric/config.json \
 		-v $network_crypto_base_path:/tmp/crypto \
-		-p 8080:8080 \
+		-p 8081:8080 \
 		hyperledger-blockchain-explorer
 }
 
